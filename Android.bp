@@ -1,5 +1,5 @@
 /**
- * Copyright (C) 2020 The LineageOS Project
+ * Copyright (C) 2020-2021 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -151,5 +151,19 @@ dex_import {
 	name: "WfdCommon",
 	owner: "xiaomi",
 	jars: ["proprietary/framework/WfdCommon.jar"],
+}
+
+dex_import {
+	name: "com.qti.dpmframework",
+	owner: "xiaomi",
+	jars: ["proprietary/product/framework/com.qti.dpmframework.jar"],
+	product_specific: true,
+}
+
+dex_import {
+	name: "dpmapi",
+	owner: "xiaomi",
+	jars: ["proprietary/product/framework/dpmapi.jar"],
+	product_specific: true,
 }
 
