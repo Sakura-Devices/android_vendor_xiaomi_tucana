@@ -607,7 +607,6 @@ PRODUCT_PACKAGES += \
     DeviceStatisticsService \
     DynamicDDSService \
     PerformanceMode \
-    QColor \
     QTIDiagServices \
     QdcmFF \
     QtiSystemService \

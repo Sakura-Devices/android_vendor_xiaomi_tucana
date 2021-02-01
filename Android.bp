@@ -82,17 +82,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "QColor",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/app/QColor/QColor.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
 	name: "QTIDiagServices",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/app/QTIDiagServices/QTIDiagServices.apk",
