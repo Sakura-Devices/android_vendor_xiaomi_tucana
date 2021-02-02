@@ -46,8 +46,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tucana/proprietary/system_ext/bin/sigma_miracasthalservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/sigma_miracasthalservice \
     vendor/xiaomi/tucana/proprietary/system_ext/bin/test_diag_system:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/test_diag_system \
     vendor/xiaomi/tucana/proprietary/system_ext/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/wfdservice \
-    vendor/xiaomi/tucana/proprietary/system_ext/etc/bluetooth/bt_profile.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/bluetooth/bt_profile.conf \
-    vendor/xiaomi/tucana/proprietary/system_ext/etc/bluetooth/interop_database.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/bluetooth/interop_database.conf \
     vendor/xiaomi/tucana/proprietary/system_ext/etc/cdma_call_conf.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/cdma_call_conf.xml \
     vendor/xiaomi/tucana/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
     vendor/xiaomi/tucana/proprietary/system_ext/etc/init/com.qualcomm.qti.sigma_miracast@1.0-service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/com.qualcomm.qti.sigma_miracast@1.0-service.rc \
